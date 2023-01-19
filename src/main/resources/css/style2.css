@@ -1,0 +1,68 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+
+  #title{
+      text-align: center;
+      font-size: 50px;
+  }
+
+  
+  .select-container{
+      margin-left: 25px;
+  }
+
+
+  #checkbox1{
+     margin-left: 65px;
+  }
+
+  #checkbox2{
+      margin-left:150px;
+  }
+
+  .btn1{
+    background-color: #4d5a5a;
+    margin-left: 500px;
+    border: 1px solid grey; 
+    color: white;  
+    cursor: pointer; 
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 120px;
+    height: 50px;
+  }
+
+  .btn1:hover {
+    background-color: #afafaf;
+  }
+
+  .btn2{
+    background-color: #4d5a5a;
+    margin-left: 50px;
+    border: 1px solid grey; 
+    color: white;
+    cursor: pointer; 
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 120px;
+    height: 50px;
+  }
+
+  .btn2:hover {
+    background-color: #afafaf;
+  }
+
+  #text1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: medium;
+  }
+
+  #text2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: medium;
+  }
+
+  
+ 
+

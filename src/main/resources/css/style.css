@@ -1,0 +1,189 @@
+
+.butt1, .butt2, .butt3 {
+    border: 1px outset grey;
+    background-color: rgb(255, 210, 210);
+    height:50px;
+    cursor:pointer;
+    width: 500px;
+ }
+ 
+ .butt1:hover {
+    background-color: rgb(252, 102, 102);
+    color:white;
+ }
+
+ 
+
+ .butt2:hover {
+    background-color: rgb(252, 102, 102);
+    color:white;
+ }
+
+ .butt3 {
+    border: 1px outset grey;
+    background-color: rgb(255, 210, 210);
+    height:50px;
+    cursor:pointer;
+    
+ }
+
+ .butt3:hover {
+    background-color: rgb(252, 102, 102);
+    color:white;
+ }
+
+ .butt4 {
+     display: block;
+     margin-top: 150px;
+        border: 1px outset grey;
+        background-color:rgb(255, 210, 210);
+        padding: 14px 28px;
+        font-size: 16px;
+        border-radius: 50%;
+        width: 287px;
+        height: 100px;
+        cursor: pointer;
+        display: inline-block;
+ }
+ .butt4:hover {
+  background-color: rgb(252, 102, 102);
+  color:white;
+}
+ .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 55px 80px;
+  }
+
+  .overviewtitle {
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #979797;
+  }
+
+  .symptomstitle {
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #979797;
+  }
+
+  .wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center; 
+    
+  }
+  
+  .wrapper > * {
+    padding: 12px;
+    padding-bottom: 0px;
+    margin: 20px;
+    flex: 1 100%;
+  }
+  
+  .header {
+      background-size: fill;
+      margin: 0;
+    background-image: url("https://scitechdaily.com/images/COVID-19-Protection-Concept.gif")
+  }
+  
+  .footer {
+    background: lightgreen;
+  }
+  
+  .main {
+    text-align: left;
+    background: rgb(255, 255, 255);
+  }
+  
+  .aside-1 {
+    background: rgb(255, 255, 255);
+  }
+  
+  .aside-2 {
+    background: rgb(255, 255, 255);
+  }
+  
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 500px) {
+    .main    { flex: 1 0px; }
+    .aside-1 { order: 2; 
+    max-width: 450px;} 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+  }
+
+  .text-main {
+    text-align: left;
+   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #7c6666;
+  }
+
+  .buttontext {
+      text-align: center;
+      
+      color: #7c6666;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 35px;
+      line-height: 29px;    
+  }
+  .buttontextnav {
+    text-align: center;
+    
+    color: #555050;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-decoration: none;
+  }
+
+  .warningicon {
+      width: 21px;
+      height: 21px;
+  }
+
+  #fixedbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    width: 110px;
+    height: 110px;
+}
+
+#title {
+    text-align: center;
+    
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 29px;
+    
+}
+  
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
